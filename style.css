@@ -1,0 +1,106 @@
+html, body{
+
+    height: 100%;
+}
+.first{
+
+    height: 100%;
+}
+#navBrand{
+
+    display: none !important;
+}
+img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgDiv{
+
+    padding: 250px 0px;
+    /* background-image: linear-gradient(to bottom, rgb(240, 240, 240), rgb(164, 223, 226)); */
+}
+.textDiv{
+
+    background-color: rgb(24, 42, 56) !important;
+}
+.btn{
+
+    border-radius: 60px !important;
+    background-image: linear-gradient(to right, rgb(98, 171, 176), rgb(82, 137, 183));
+}
+.btn:hover{
+
+    background-image: repeating-linear-gradient(to right, rgb(82, 137, 183), rgb(98, 171, 176));
+}
+.btn:disabled{
+
+    background-image: linear-gradient(to right, rgb(126, 180, 184), rgb(112, 143, 168));
+}
+#text, .button{
+
+    margin-top: 100px;
+}
+#cards{
+
+    margin-top: 200px;
+    display: none;
+}
+#cd{
+
+    background-image: linear-gradient(to right, rgb(223, 236, 237), rgb(152, 186, 210));
+}
+#submitBtn{
+
+    display: none;
+}
+.selected{
+
+    background-color: rgb(164, 216, 240) !important;
+}
+.card-header{
+
+    background-image: linear-gradient(to right, rgb(98, 171, 176), rgb(82, 137, 183));
+    color: white !important;
+}
+
+@media only screen and (max-width : 600px){
+
+    .imgDiv{
+
+        display: none;
+    }
+    #navBrand{
+
+        display: block !important;
+    }
+    #btn, #greet, #welcome{
+
+        padding-top: 0px !important;
+    }
+    #cards{
+
+        margin-top: 10px;
+    }
+    #cd{
+
+        width: 180px !important;
+        height: 100px !important;
+        margin: 20px auto !important;
+        background-image: linear-gradient(to right, rgb(223, 236, 237), rgb(152, 186, 210));
+        border-radius: 20px !important;
+    }
+    .card-title{
+
+        font-size: 17px !important;
+    }
+    #cardCon{
+
+        margin-top: 40px !important;
+    }
+    #cdBtn{
+
+        font-size: 12px !important;
+    }
+}
